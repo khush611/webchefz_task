@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background: url(./images/header-bg.jpg);
+  /* height: 20%vh; */
+  position: relative;
+}
+@media only screen and (max-width: 1050px) {
+  .founder-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .logo-img {
+    width: 100%;
+  }
+  .founder-row {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .image-founder {
+    width: 100% !important;
+    height: auto !important;
+  } */
+  .mine > .container > .row > h1 {
+    text-align: center;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.zig-zag {
+  background: url(./images/header-zigzag-img.png);
+  height: 5%;
+}
+.zig-rev {
+  background: url(./images/zigzag-img-2-rev.png);
+  height: 4%;
+}
+a:hover {
+  color: #cea120 !important;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: black !important;
+}
+.active {
+  background-color: #cea120;
+}
+.showcase {
+  background: url(./images/wayne-bg.jpg);
+}
+
+.founder {
+  background: url(./images/wayne-bg.jpg);
+}
+.founder > .container > .row > .col > h1 {
+  font-family: "Monoton", cursive;
+  font-size: 4rem;
+  color: #cea120 !important;
+}
+.founder > .container > .row > .col > p {
+  font-family: "Playfair Display", serif;
+  color: #b0b4b9;
+}
+
+.image-founder {
+  width: 80%;
+  height: 80%;
+}
+.rightcol {
+  /* text-align: center; */
+  padding: 40px !important;
+}
+
+.mine {
+  background: url(./images/mineral-min-bg.jpg);
+}
+
+.mine > .container > .row > h1 {
+  font-family: "Monoton", cursive;
+  font-size: 4rem;
+  color: black !important;
+  padding: 40px;
+}
+.gallery {
+  height: 100%;
+  width: 100%;
+}
+
+.gallerycol {
+  position: relative;
+}
+.bottom-right {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.bottom-right:hover {
+  color: #cea120 !important;
+}
+.gallery-wrapper {
+  padding-bottom: 5%;
+}
+.register {
+  padding-top: 20px;
+  background: url(./images/wayne-bg.jpg);
+  text-align: center;
+}
+.register > h2 {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.input-values {
+  background: transparent !important;
+  color: white !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.inputs {
+  height: 80px !important;
+}
+.inputs-row {
+  justify-content: center !important;
+  margin-top: 2% !important;
+}
+
+.drop-country {
+  color: #cea120;
+}
+.drops {
+  background: transparent !important;
+  color: gray;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 4px;
+  border: 1px solid wheat !important;
+  font-family: "Playfair Display", serif;
+}
+
+option {
+  background: black;
+  /* color: white; */
+}
+.signup-text {
+  font-family: "Great Vibes", cursive;
+  color: #cea120;
+  font-size: 2rem;
+}
+input::placeholder {
+  font-family: "Playfair Display", serif;
+}
+.submitting {
+  margin-top: 3% !important;
+  padding-bottom: 5% !important;
+}
+.submit-button {
+  background: #cea120;
+  color: white;
+  font-family: "Playfair Display", serif;
+  width: 20%;
+  height: 80px;
+  border: none;
+}
+.details {
+  background: url(./images/bb.jpg);
+}
+
+.bg-opacity {
+  position: relative;
+  background-color: #000;
+}
+
+.bg-opacity::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("./images/wayne-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  /* height: 600px; */
+}
+.geo {
+  width: 100%;
+  left: 0;
+}
+.details {
+  padding-top: 5%;
+}
+
+.details-col {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: gray;
+  /* border: 1px solid red; */
+}
+.contact-head {
+  color: #cea120;
+  font-size: 1.5rem;
+}
+
+.searching {
+  background: transparent !important;
+  color: white !important;
+  height: 20% !important;
+  width: 60% !important;
+}
+.search-col {
+  padding-left: 5% !important;
+}
+.last {
+  text-align: center;
+}
+.foot {
+  color: whitesmoke;
+}
+hr {
+  width: 50%;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+.last-section {
+  font-family: "Playfair Display", serif;
+}
